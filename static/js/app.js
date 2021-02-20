@@ -1,4 +1,4 @@
-// from data.js
+// from data.js 
 // const means a variable that cant change, similar to var, except u can constantly chanhe var. var only works 
 //var works within the scope, but const overall
 //every single object in data.js now belongs to the tableData variable. 
