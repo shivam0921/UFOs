@@ -45,46 +45,22 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-3">
-              <form>
+            <form>
                 
-                  <p><label><strong>Enter Search Criteria</strong></label></p>
-                
-                  <ul>
-                    <li class="bg-dark">
-                      <label for="date">Enter Date</label>
-                      <div style="height:5px"></div>
-                      <input type="text" placeholder="1/10/2010" id="datetime" />
-                      <br></br>
-                    </li>
-                    <li class="bg-dark">
-                      <label for="city">Enter City</label>
-                      <div style="height:5px"></div>
-                      <input type="text" placeholder="benton" id="city" />
-                      <br></br>
-                    </li>
-                    <li class="bg-dark">
-                      <label for="state">Enter State</label>
-                      <div style="height:5px"></div>
-                      <input type="text" placeholder="ar" id="state" />
-                      <br></br>
-                    </li>
-                    <li class="bg-dark">
-                      <label for="country">Enter Country</label>
-                      <div style="height:5px"></div>
-                      <input type="text" placeholder="us" id="country" />
-                      <br></br>
-                    </li>
-                    <li class="bg-dark">
-                      <label for="shape">Enter Shape</label>
-                      <div style="height:5px"></div>
-                      <input type="text" placeholder="circle" id="shape" />
-                      <br></br>
-                    </li>
-                    <button id="filter-btn" type="button" class="btn btn-white">Filter Table</button>
-                
-                  
-                  </ul>
-                 </form>
+                <form>
+                    <p>Filter Search</p>
+                    <ul>
+                      <li>
+                        <label for="date">Enter Date</label>
+                        <input type="text" placeholder="1/10/2010" id="datetime" />
+                      </li>
+                      <li>
+                         <button id="filter-btn" type="button" class="btn">
+                           Filter Table
+                         </button>
+                      </li>
+                    </ul>
+                   </form>
           </div>
           <div class="col-md-9">
             <table class="table table-striped">
